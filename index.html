@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    /> -->
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/3a071e1129.css"
+      crossorigin="anonymous"
+    /> -->
     <link rel="stylesheet" href="./styles.css" />
     <title>Document</title>
   </head>
@@ -19,36 +25,56 @@
       </header>
 
       <form id="form">
-        <div class="form-control">
+        <div class="form-control success">
           <label>Username</label>
-          <input type="username" placeholder="enter your username" />
-          <i class="fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
+          <input
+            id="username"
+            type="username"
+            placeholder="enter your username"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+
+          <i class="fa-solid fa-circle-exclamation"></i>
           <small>error message</small>
         </div>
-        <div class="form-control">
+        <div class="form-control error">
           <label>Email</label>
-          <input type="email" placeholder="enter your email" />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
+          <input id="email" type="email" placeholder="enter your email" />
+          <i class="fa-solid fa-circle-check"></i>
+
+          <i class="fa-solid fa-circle-exclamation"></i>
           <small>error message</small>
         </div>
         <div class="form-control">
           <label>Password</label>
-          <input type="password" placeholder="enter your password" />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
+          <input
+            id="password"
+            type="password"
+            placeholder="enter your password"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
           <small>error message</small>
         </div>
         <div class="form-control">
           <label>Password</label>
-          <input type="email" placeholder="repeat your password" />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
+          <input
+            id="password2"
+            type="email"
+            placeholder="repeat your password"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+
+          <i class="fa-solid fa-circle-exclamation"></i>
           <small>error message</small>
         </div>
+        <button type="submit">Submit</button>
       </form>
     </div>
     <script src="./script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3a071e1129.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

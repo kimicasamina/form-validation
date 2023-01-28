@@ -11,6 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  font-family: sans-serif;
 }
 
 .container {
@@ -49,16 +50,48 @@ body {
   font-size: 14px;
 }
 
+.form-control.success input {
+  color: #189635;
+  border: solid 2px #189635;
+}
+
+.form-control.error input {
+  color: #d32916;
+  border: solid 2px #d32916;
+}
+
 .form-control i {
+  visibility: hidden;
   position: absolute;
   top: 40px;
   right: 20px;
 }
 
+.form-control.success .fa-circle-check {
+  visibility: visible;
+  color: #189635;
+}
+
+.form-control.error .fa-circle-exclamation {
+  visibility: visible;
+  color: #d32916;
+}
+
 .form-control small {
-  /* visibility: hidden; */
+  visibility: hidden;
   position: absolute;
   bottom: 0;
   left: 0;
-  
+}
+
+form button {
+  background-color: #dd5038;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  border: solid 2px #1b1a1a;
+  border-radius: 4px;
+  color: #1b1a1a;
+  font-family: inherit;
+  font-size: 16px;
 }
