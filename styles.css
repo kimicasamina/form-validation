@@ -84,6 +84,11 @@ body {
   left: 0;
 }
 
+.form-control.error small {
+  visibility: visible;
+  color: #d32916;
+}
+
 form button {
   background-color: #dd5038;
   padding: 10px;
