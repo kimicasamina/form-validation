@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  font-family: sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 .container {
@@ -38,6 +38,8 @@ body {
 .form-control label {
   display: inline-block;
   margin-bottom: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .form-control input {
   border: solid 2px #f0f0f0;
