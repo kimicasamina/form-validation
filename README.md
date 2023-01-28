@@ -2,9 +2,9 @@
 ensures correct data inputs
 
 ### Users story
-- user cannot leave username, email and password blank
-- user can check if email is valid
-- user can check if passwords match
+- users cannot leave username, email and password blank
+- users can check if the entered email is a valid email address
+- users can check if the entered passwords are match
 
 [live preview](https://kimicasamina.github.io/form-validation/)
 
